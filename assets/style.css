@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    height: 0;
+}
+
+header {
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 70vh;
+}
+
+.card {
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin: 20px;
+}
