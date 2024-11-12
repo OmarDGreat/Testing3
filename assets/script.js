@@ -3,6 +3,7 @@ const amountDisplay = document.getElementById("amountDisplay")
 const submitButton = document.getElementById("submitButton")
 const limitButton = document.getElementById("limitButton")
 
+
 function limitPrompt(){
     const userInput = prompt("Enter budget limit")
     const budgetLimit = parseInt(userInput);
