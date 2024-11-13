@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0;
     height: 0;
 }
@@ -9,7 +9,7 @@ header {
     padding: 10px;
 }
 
-.container {
+.main-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -17,11 +17,11 @@ header {
     height: 70vh;
 }
 
-.card {
+.card-css {
     text-align: center;
     height: 200px;
     width: 250px;
     background-color: cadetblue;
     border: 2px solid black;
     margin: 20px;
-}
+} */
