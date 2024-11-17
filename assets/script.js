@@ -26,7 +26,6 @@ function limitPrompt() {
 // Display and calculate total expenses
 function displayAmount(event) {
     event.preventDefault();
-function displayAmount() {
     const enteredAmount = parseFloat(amountInput.value);
     const selectedCategory = categorySelect.value;
     if (isNaN(enteredAmount) || enteredAmount <= 0) {
