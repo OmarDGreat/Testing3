@@ -83,6 +83,18 @@
 
       <div class="row justify-content-around flex-wrap border-bottom mb-5">
 
+        <!-- Container for Entering Budget Limit -->
+
+    <div class="col-3 bg-light p-5 mb-5 border border-success border-2 rounded d-flex flex-column align-items-center justify-content-center">
+        <h1 class="display-6 text-center text-success">Enter Budget Limit</h1>
+        <p class="lead text-center">Set a budget to keep your spending on track</p>
+        <div class="input-group mb-3">
+          <span class="input-group-text">$</span>
+          <!-- Update budget input id -->
+          <input type="text" class="form-control" id="budgetLimitInput" aria-label="Dollar amount (with dot and two decimal places)">
+          <button id="limitButton" class="btn btn-success">Set Budget Limit</button>
+          </div>
+    </div>   
             <!-- Container for Entering Expenses -->
 
         <div class="col-3 bg-light p-5 mb-5 border border-success border-2 rounded d-flex flex-column align-items-center justify-content-center">
@@ -95,23 +107,13 @@
               </select>
               <div class="input-group mb-3">
                 <span class="input-group-text">$</span>
-                <span class="input-group-text">0.00</span>
+                <!-- <span class="input-group-text">0.00</span> -->
                 <input type="text" class="form-control" id="amountInput" aria-label="Dollar amount (with dot and two decimal places)">
               </div>
             <button type="button " id="submitButton" class="btn btn-success btn-lg"><a href="" class="text-white text-decoration-none">Click</a></button>
         </div>   
 
 
-            <!-- Container for Entering Budget Limit -->
-        <div class="col-3 bg-light p-5 mb-5 border border-success border-2 rounded d-flex flex-column align-items-center justify-content-center">
-            <h1 class="display-6 text-center text-success">Enter Budget Limit</h1>
-            <p class="lead text-center">Set a budget to keep your spending on track</p>
-            <div class="input-group mb-3">
-              <button id="limitButton" class="button btn-secondary mb-2">Set Budget Limit</button>
-                <span class="input-group-text" id="inputGroup-sizing-default">Budget</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-              </div>
-        </div>   
 
             <!-- Container for our Tracker -->
         <div class="col-3 bg-light p-5 mb-5 border border-success border-2 rounded " id="trackerCard">
@@ -215,3 +217,4 @@
 
 </body>
 </html>
+<!-- class="button btn-secondary mb-2" -->
